@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools= "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity">
+
+    <View
+        android:layout_width = "1dp"
+        android:layout_height = "wrap_content"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:id = "@+id/pare_linn"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "horizontal"
+        >
+
+        <LinearLayout
+            android:layout_weight = "1"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:orientation = "vertical"
+            >
+
+            <TextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "Team A"
+                android:textSize = "20sp"
+                android:textColor = "@android:color/black" />
+
+            <TextView
+                android:id = "@+id/team_a_score"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "Team Score"
+                android:textSize = "15sp"
+                android:textColor = "@android:color/darker_gray"/>
+
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "+3 POINTS"
+                android:textSize = "15sp"
+                android:layout_marginTop = "40dp"
+                android:onClick = "threePointerA"/>
+
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "+2 POINTS"
+                android:textSize = "15sp"
+                android:background="@android:color/black"
+                android:layout_marginTop = "15dp"
+                android:onClick = "twoPointerA"/>
+
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "FREE THROW"
+                android:textSize = "15sp"
+                android:layout_marginTop = "15dp"
+                android:onClick = "freeThrowerA"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "1"
+            android:orientation = "vertical"
+            >
+
+            <TextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "Team B"
+                android:textSize = "20sp"
+                android:textColor = "@android:color/black" />
+
+            <TextView
+                android:id = "@+id/team_b_score"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "Team Score"
+                android:textSize = "15sp"
+                android:textColor = "@android:color/darker_gray" />
+
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "+3 POINTS"
+                android:textSize = "15sp"
+                android:layout_marginTop = "40dp"
+                android:onClick = "threePointerB"/>
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "+2 POINTS"
+                android:textSize = "15sp"
+                android:layout_marginTop = "15dp"
+                android:onClick = "twoPointerB"/>
+
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:text = "FREE THROW"
+                android:textSize = "15sp"
+                android:layout_marginTop = "15dp"
+                android:onClick = "freeThrowerB"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Reset"
+        android:textSize = "15sp"
+        android:layout_centerHorizontal = "true"
+        android:layout_alignParentBottom = "true"
+        android:layout_marginBottom = "20dp"
+        android:onClick = "resetScore"/>
+
+
+</RelativeLayout>

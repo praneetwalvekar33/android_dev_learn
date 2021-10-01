@@ -1,0 +1,2 @@
+rootProject.name = "Cout Counter"
+include ':app'
