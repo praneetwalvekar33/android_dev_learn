@@ -127,8 +127,8 @@ public class MainActivity extends AppCompatActivity {
         priceMessage += "\nQuantity: " + quantity;
         priceMessage += "\nDo you want Whipped Cream toppings? " + checkedWhippedCream;
         priceMessage += "\nand Chocolate? " + checkedChocolate;
-        priceMessage += "\nTotal Price: $" + price;
-        priceMessage += "\nThank you";
+            priceMessage += "\n`Total Price: $`" + price;
+        priceMessage += "\nThank you!";
         return priceMessage;
     }
 
