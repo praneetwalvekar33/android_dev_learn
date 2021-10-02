@@ -16,38 +16,38 @@
             android:layout_width = "match_parent"
             android:layout_height = "wrap_content"
             android:layout_marginStart = "10dp"
-            android:hint = "Name"
+            android:hint = "@string/Name"
             android:inputType = "text"/>
 
         <TextView
             android:layout_width = "wrap_content"
             android:layout_height = "wrap_content"
-            android:text = "Toppings"
+            android:text = "@string/Toppings"
             android:textSize = "16sp"
-            android:layout_marginLeft = "10dp"
+            android:layout_marginStart = "10dp"
             android:textColor = "@android:color/darker_gray"/>
 
         <CheckBox
             android:id = "@+id/whipped_cream_toppings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text = "Whipped Cream"
+            android:text = "@string/Whipped_Cream"
             android:textSize = "16sp"
-            android:paddingLeft = "24dp"/>
+            android:paddingStart = "24dp"/>
 
         <CheckBox
             android:id = "@+id/chocolate_toppings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text = "Chocolates"
+            android:text = "@string/Chocolates"
             android:textSize = "16sp"
-            android:paddingLeft = "24dp"/>
+            android:paddingStart = "24dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="QUANTITY"
-            android:layout_marginLeft="10dp"
+            android:text="@string/QUANTITY"
+            android:layout_marginStart="10dp"
             android:textColor="@android:color/darker_gray"
             android:textSize="15sp"
             android:layout_marginBottom="16dp" />
@@ -62,8 +62,8 @@
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:onClick="increament"
-                android:text="+"
-                android:layout_marginLeft="10dp"
+                android:text="@string/increase"
+                android:layout_marginStart="10dp"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -71,7 +71,7 @@
                 android:id="@+id/quantity_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0"
+                android:text="@string/value"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textColor="@android:color/black"
@@ -81,7 +81,7 @@
                 android:id="@+id/decre"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:text="-"
+                android:text="@string/decrease"
                 android:textColor="@android:color/black"
                 android:textSize="15sp"
                 android:onClick="decreament"/>
@@ -90,10 +90,10 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Order"
+            android:text="@string/Order"
             android:textColor="@android:color/black"
             android:textSize="15sp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="16dp"
             android:onClick="submitOrder"/>
 

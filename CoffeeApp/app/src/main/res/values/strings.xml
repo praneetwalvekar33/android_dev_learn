@@ -1,3 +1,41 @@
-<resources>
+<resources xmlns:xliff = "urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Coffee App</string>
+
+    <!-- Name of the user should given as input -->
+    <string name = "Name" > Name </string>
+
+    <!--String used as header for list of toppings -->
+    <string name = "Toppings" > Toppings </string>
+
+    <!--Strings used in  list of toppings -->
+    <string name = "Whipped_Cream" > Whipped Cream </string>
+    <string name = "Chocolates" > Chocolate </string>
+
+    <!-- String used as header for quantity -->
+    <string name = "QUANTITY" > QUANTITY </string>
+
+    <!-- Strings used in to increase, decrease the quantity and showing the value for the quantity -->
+    <string name = "increase" > + </string>
+    <string name = "value" > 0 </string>
+    <string name = "decrease" > - </string>
+
+    <!-- String used in the order button -->
+    <string name = "Order" > Order </string>
+
+    <!-- Strings used in the order summary in the java code  -->
+
+    <!-- Name in the java code. It will be in the format of "Name: Praneet" where Praneet is user name [CHAR LIMIT = NONE] -->
+    <string name = "order_summary_name" > Name: <xliff:g id = "name" example = "Praneet"> %s </xliff:g></string>
+
+    <!-- Quantity in the java code. It will be in the format of "Qantity: 20" where 20 is qantitu  -->
+    <string name = "order_sumary_qantity" > Quantity: <xliff:g id = "quantity" example = "20"> %d </xliff:g></string>
+
+    <string name = "Question_1_for_toppings" > Do you want Whipped Cream toppings? </string>
+    <string name = "Question_2_for_toppings" > and Chocolate? </string>
+
+    <!-- Price in the java code. It will be in the format of "Price: $20" where 20 is price of the order  -->
+    <string name = "order_sumary_price" > Total Price: $ <xliff:g id = "price" example = "10"> %d </xliff:g></string>
+
+    <string name = "thank_you" > Thank you!" </string>
+
 </resources>
