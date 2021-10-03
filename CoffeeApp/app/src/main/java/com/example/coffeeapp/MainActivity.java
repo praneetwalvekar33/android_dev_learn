@@ -123,12 +123,12 @@ public class MainActivity extends AppCompatActivity {
      * This function gives summary of the order
      */
     private String orderSummary(int price, boolean checkedWhippedCream, boolean checkedChocolate, android.text.Editable nameOfCustomer){
-        String priceMessage = "Name: " + nameOfCustomer;
-        priceMessage += "\nQuantity: " + quantity;
-        priceMessage += "\nDo you want Whipped Cream toppings? " + checkedWhippedCream;
-        priceMessage += "\nand Chocolate? " + checkedChocolate;
-            priceMessage += "\n`Total Price: $`" + price;
-        priceMessage += "\nThank you!";
+        String priceMessage = getString(R.string.order_summary_name, nameOfCustomer);
+        priceMessage += "\n" + getString(R.string.order_sumary_qantity, quantity);
+        priceMessage += "\n" + getString(R.string.Question_1_for_toppings) + checkedWhippedCream;
+        priceMessage += "\n" + getString(R.string.Question_2_for_toppings) + checkedChocolate;
+        priceMessage += "\n" + getString(R.string.order_sumary_price, price);
+        priceMessage += "\n" + getString(R.string.thank_you);
         return priceMessage;
     }
 
