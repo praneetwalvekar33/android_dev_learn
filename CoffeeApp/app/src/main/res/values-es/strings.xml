@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Coffee App</string>
+    <string name="app_name">Aplicación de café</string>
+    <string name="thank_you">Gracias!</string>
+    <string name="Toppings">coberturas</string>
+    <string name="Name">Nombre</string>
+    <string name="Whipped_Cream">Crema batida</string>
+    <string name="Chocolates">Chocolate</string>
+    <string name="QUANTITY">Cantidad</string>
+    <string name="increase">+</string>
+    <string name="value">0</string>
+    <string name="decrease">-</string>
+    <string name="Order">Pedido</string>
+    <string name="order_summary_name">" Nombre: <xliff:g id="Nombre" example="Praneet"> %s </xliff:g>"</string>
+    <string name="order_sumary_qantity">" Cantidad: <xliff:g id="Cantidad" example="20"> %d </xliff:g>"</string>
+    <string name="Question_1_for_toppings">¿Quieres nata montada?</string>
+    <string name="Question_2_for_toppings">¿y chocolate?</string>
+    <string name="order_sumary_price">" Precio total: $<xliff:g id="price" example="10"> %d </xliff:g>"</string>
 </resources>
