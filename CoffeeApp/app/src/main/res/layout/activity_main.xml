@@ -20,12 +20,9 @@
             android:inputType = "text"/>
 
         <TextView
-            android:layout_width = "wrap_content"
-            android:layout_height = "wrap_content"
             android:text = "@string/Toppings"
-            android:textSize = "16sp"
-            android:layout_marginStart = "10dp"
-            android:textColor = "@android:color/darker_gray"/>
+            style = "@style/HeaderTextStyle"
+            android:layout_marginStart = "10dp" />
 
         <CheckBox
             android:id = "@+id/whipped_cream_toppings"
@@ -44,12 +41,9 @@
             android:paddingStart = "24dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style = "@style/HeaderTextStyle"
             android:text="@string/QUANTITY"
             android:layout_marginStart="10dp"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="15sp"
             android:layout_marginBottom="16dp" />
 
         <LinearLayout
