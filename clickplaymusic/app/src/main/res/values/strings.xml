@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Click Play Music</string>
+
+    <!-- String resource for skip forward -->
+    <string name="skip_forward">skip forword</string>
+
+    <!-- String resource for skip back -->
+    <string name="skip_back">skip back</string>
+
+    <!-- String resource for play -->
+    <string name="play">play</string>
+
+    <!-- String resource for pause -->
+    <string name="pause">pause</string>
+
+    <!-- String resource for skip back -->
+    <string name="volume_up">volume up</string>
+
+    <!-- String resource for skip back -->
+    <string name="volume_down">volume down</string>
+</resources>

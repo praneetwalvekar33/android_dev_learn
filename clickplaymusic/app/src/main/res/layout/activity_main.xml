@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/skip_forward"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            style="@style/StyleText"
+            android:text="@string/skip_forward" />
+
+        <TextView
+            android:id="@+id/skip_back"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            style="@style/StyleText"
+            android:text="@string/skip_back" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/play_music"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        style="@style/StyleText"
+        android:text="@string/play" />
+
+    <TextView
+        android:id="@+id/pause_music"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        style="@style/StyleText"
+        android:text="@string/pause"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/volume_up"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            style="@style/StyleText"
+            android:text="@string/volume_up"/>
+
+        <TextView
+            android:id="@+id/volume_down"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            style="@style/StyleText"
+            android:text="@string/volume_down"/>
+    </LinearLayout>
+
+</LinearLayout>
